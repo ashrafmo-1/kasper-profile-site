@@ -520,8 +520,16 @@ header .form i {
     display: block;
     width: fit-content;
     margin: 30px auto;
-    text-decoration-color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
     text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.portfolio .more:hover {
+    background-color: black;
+    color: var(--main-color);
 }
 
 /* <!-- end portfolio --> */
@@ -921,7 +929,27 @@ header .form i {
     text-decoration: none;
     width: fit-content;
     border: 1px solid var(--main-color);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+
 }
+
+.pricing .boxes .box .foot a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 0, 0, 0.244);
+    left: 0;
+    top: -50px;
+    transition: 0.4s;
+}
+
+.pricing .boxes .box .foot a:hover:after {
+    top: 0px;
+}
+
 
 .pricing .contact-p {
     text-align: center;
