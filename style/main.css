@@ -1,14 +1,17 @@
 /* start var */
+
 :root {
     --main-color: rgb(228, 0, 0);
     --transparent-color: rgb(178 58 58 / 50%);
     --main-padding: 100px;
 }
 
+
 /* end var */
 
 
 /* start global rules */
+
 * {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -33,31 +36,42 @@ ul {
     margin-right: auto;
 }
 
+
 /* @media queries */
+
+
 /* Small */
+
 @media (min-width: 768px) {
     .container {
         width: 750px;
     }
 }
 
+
 /* Medium */
+
 @media (min-width: 992px) {
     .container {
         width: 970px;
     }
 }
 
+
 /* Large */
+
 @media (min-width: 1200px) {
     .container {
         width: 1170px;
     }
 }
 
+
 /* end global rules */
 
+
 /* start components */
+
 .section {
     padding: 100px;
 }
@@ -106,9 +120,12 @@ ul {
     color: rgb(119, 119, 119);
 }
 
+
 /* end components */
 
+
 /* start header */
+
 header {
     position: absolute;
     left: 0;
@@ -214,9 +231,12 @@ header .form i {
     cursor: pointer;
 }
 
+
 /* end header */
 
+
 /* start landing */
+
 .landing {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/landing.jpg);
@@ -252,7 +272,6 @@ header .form i {
     .landing .text {
         width: 100%;
     }
-
     .landing .text .content {
         max-width: 100%;
     }
@@ -314,9 +333,12 @@ header .form i {
     border-color: var(--main-color);
 }
 
+
 /* end landing */
 
+
 /* <!-- start services --> */
+
 .services {
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
@@ -346,7 +368,6 @@ header .form i {
         text-align: center;
         margin-bottom: 40px;
     }
-
     .services .services-container .serv-box i {
         margin: 0 0 35px;
     }
@@ -362,10 +383,12 @@ header .form i {
     color: #777;
 }
 
+
 /* <!-- end services --> */
 
 
 /* <!-- start design  --> */
+
 .design {
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
@@ -435,15 +458,16 @@ header .form i {
     top: 1px;
 }
 
+
 /* <!-- end design --> */
 
 
 /* <!-- start portfolio --> */
+
 .portfolio {
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
 }
-
 
 .portfolio .shuffle {
     display: flex;
@@ -452,6 +476,7 @@ header .form i {
 
 .portfolio .shuffle li {
     padding: 10px;
+    cursor: pointer;
 }
 
 .portfolio .shuffle li.active {
@@ -532,10 +557,12 @@ header .form i {
     color: var(--main-color);
 }
 
+
 /* <!-- end portfolio --> */
 
 
 /* <!-- start video --> */
+
 .video {
     position: relative;
 }
@@ -552,7 +579,6 @@ header .form i {
 
 .video video {
     width: 100%;
-
 }
 
 .video .text {
@@ -582,9 +608,12 @@ header .form i {
     text-transform: uppercase;
 }
 
+
 /* <!-- end vedio --> */
 
+
 /* <!-- start about --> */
+
 .about {
     padding-top: var(--main-padding);
     overflow: hidden;
@@ -605,9 +634,12 @@ header .form i {
     }
 }
 
+
 /*    <!-- end about --> */
 
+
 /* <!-- start stats --> */
+
 .stats {
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
@@ -631,7 +663,6 @@ header .form i {
     color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .stats .container .box {
@@ -686,9 +717,12 @@ header .form i {
     font-size: 15px;
 }
 
+
 /* <!-- end stats --> */
 
+
 /* <!-- start skills --> */
+
 .our-skills {
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
@@ -735,7 +769,6 @@ header .form i {
         flex-direction: column;
         text-align: center;
     }
-
     .our-skills .testimonials .box img {
         margin: 0 auto 20px;
     }
@@ -819,9 +852,12 @@ header .form i {
     top: -10px;
 }
 
+
 /* <!-- end skills --> */
 
+
 /* start quote */
+
 .quote {
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
@@ -851,9 +887,12 @@ header .form i {
     display: block;
 }
 
+
 /* end quote */
 
+
 /* <!-- start pricing --> */
+
 .pricing {
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
@@ -932,7 +971,6 @@ header .form i {
     border-radius: 4px;
     position: relative;
     overflow: hidden;
-
 }
 
 .pricing .boxes .box .foot a::after {
@@ -950,7 +988,6 @@ header .form i {
     top: 0px;
 }
 
-
 .pricing .contact-p {
     text-align: center;
     margin: 50px 0 20px;
@@ -967,9 +1004,12 @@ header .form i {
     padding: 10px 20px;
 }
 
+
 /* <!-- end pricing --> */
 
+
 /* <!-- start subscribe--> */
+
 .subscribe {
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
@@ -998,7 +1038,6 @@ header .form i {
     .subscribe .container {
         flex-direction: column;
     }
-
 }
 
 .subscribe .container form {
@@ -1013,7 +1052,6 @@ header .form i {
     top: 50%;
     transform: translateY(-50%);
     left: 25px;
-
 }
 
 .subscribe .container form input[type="email"] {
@@ -1040,7 +1078,6 @@ header .form i {
     outline: none;
 }
 
-
 .subscribe form ::placeholder {
     color: rgb(204, 204, 204);
 }
@@ -1056,9 +1093,12 @@ header .form i {
     }
 }
 
+
 /* <!-- end subscribe --> */
 
+
 /* <!-- satrt contact us --> */
+
 .contact {
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
@@ -1152,9 +1192,12 @@ header .form i {
     }
 }
 
+
 /* <!-- end contact us --> */
 
+
 /* <!-- staet footer --> */
+
 .footer {
     padding-top: calc(var(--main-padding) / 2);
     padding-bottom: calc(var(--main-padding) / 2);
@@ -1204,5 +1247,6 @@ header .form i {
     font-size: 25px;
     color: var(--main-color);
 }
+
 
 /* <!-- end footer -->/ */
