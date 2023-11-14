@@ -1,5 +1,2 @@
 # kasper
- kasper make by css & html
-
-site link
-"https://ashraf-codes.github.io/kasper-profile-site/"
+ simple project made by html, css and pure js
